@@ -28,4 +28,5 @@ The baseline plan used a sequential scan on the policy table and had an executio
 
 ##Index Used
 
+</> SQL
 CREATE INDEX idx_policy_end_date ON policy (end_date);
