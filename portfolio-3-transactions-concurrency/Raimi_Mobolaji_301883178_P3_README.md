@@ -5,8 +5,6 @@ A Rollback demonstration was carried out by inserting a temporary payment into a
 ## Commit
 A commit was demonstrated by inserting a payment of ₦75,000 for Policy 280. After the transaction was committed, a check confirmed that the payment remained saved in the database.
 
-## Concurrent Control
+## Concurrency Control
 
 Concurrency control was demonstrated using two sessions. The first session locked Policy 280, while the second tried to lock the same row using the NOWAIT option. The second session returned an error immediately instead of waiting, showing how the database handles competing access to a locked row.
-
-Document Portfolio 3 transactions and concurrency evidence
