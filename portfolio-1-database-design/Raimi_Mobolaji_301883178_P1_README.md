@@ -29,11 +29,11 @@ PAYMENT(Payment_ID PK, Policy_ID FK → POLICY.Policy_ID, Payment_Date, Amount, 
 
 ## Normalization and Design Rationale
 
-The CLIENT table stores each client's details and it helps avoid duplication and keeps updates consistent.
-A client may have many policies, one client may have more than one policy linked to one client using Client_ID.
-A policy may have several payments, which means that a single policy can have several payments linked to it using Policy_ID.
-The database meets First Normal Form (1NF) because each field stores one value e.g. each client, policy and payment has its own row.
-The database meets Second Normal Form (2NF) because each non-key field depends on the table’s whole primary key e.g. Client_Name and contact details depend on Client_ID , policy details on Policy_ID, payment details depend on Payment_ID
-The database meets Third Normal Form (3NF) because each non-key field should depend on the primary key and not on another non-key field. For example client contact details stay in CLIENT and not repeated in POLICY or PAYMENT.
+1. The CLIENT table stores each client's details and it helps avoid duplication and keeps updates consistent.
+2. A client may have many policies, one client may have more than one policy linked to one client using Client_ID.
+3. A policy may have several payments, which means that a single policy can have several payments linked to it using Policy_ID.
+4. The database meets First Normal Form (1NF) because each field stores one value e.g. each client, policy and payment has its own row.
+5. The database meets Second Normal Form (2NF) because each non-key field depends on the table’s whole primary key e.g. Client_Name and contact details depend on Client_ID , policy details on Policy_ID, payment details depend on Payment_ID
+6. The database meets Third Normal Form (3NF) because each non-key field should depend on the primary key and not on another non-key field. For example client contact details stay in CLIENT and not repeated in POLICY or PAYMENT.
 
 Since each key is a single ID, there can’t be a dependency on only part of a key
