@@ -8,7 +8,7 @@ Student ID: 301883178
 
 ## Case study
 
-Insurance Brokerage System.
+Impact Insurance Brokers Limited (fictional company) is an insurance brokerage company that connects individuals or organizations seeking insurance cover for their various assets with insurers willing to carry such liabilities. A major part of their daily operations involve the need to maintain accurate client details, policies, and payments. Respond to inquiries and client-history requests, and identify policies nearing expiry for renewal follow-up. This case study was used throughout the five portfolio activities, as required by the assessment brief.
 
 ## Portfolio folders
 
