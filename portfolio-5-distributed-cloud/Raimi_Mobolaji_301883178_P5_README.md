@@ -1,6 +1,6 @@
 ## Cloud Deployment
 
-The insurance_portfolio database was deployed on MongoDB Atlas using the ClusterMobolaji Free-tier cluster. The Atlas overview showed that the cluster is hosted on AWS in one region. This provides evidence of the cloud deployment. Replication and sharding are discussed in this portfolio as database concepts; I did not separately configure them for this project.
+The insurance_portfolio database was deployed on MongoDB Atlas using the ClusterMobolaji Free-tier cluster. The Atlas overview showed that the cluster is hosted on AWS in one region. This provides evidence of the cloud deployment. Replication and sharding are discussed in this portfolio as database conceptsonly. I did not separately configure them for this project.
 
 ## Replication and Availability
 
