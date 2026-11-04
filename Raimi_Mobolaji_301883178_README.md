@@ -8,7 +8,7 @@ Student ID: 301883178
 
 ## Case study
 
-Impact Insurance Brokers Limited (fictional company) is an insurance brokerage company that connects individuals or organizations seeking insurance cover for their various assets with insurers willing to carry such liabilities. A major part of their daily operations involve the need to maintain accurate client details, policies, and payments. Respond to inquiries and client-history requests, match policies to payments, and identify policies nearing expiry for renewal follow-up. This focus of this case study will be spooling from the database, policies nearing expiry for adequate follow for renewal. This case study was also used throughout the five portfolio activities, as required by the assessment brief.
+Impact Insurance Brokers Limited (fictional company) is an insurance brokerage company that connects individuals or organizations seeking insurance cover for their various assets with insurance companies willing to underwrite such liabilities. A major part of their daily operations involve the need to record and maintain accurate client details, policies, and payments. Respond to inquiries and client-history requests, match policies to payments, and identify policies nearing expiry for renewal follow-up. The focus of this case study will be spooling from the database, policies nearing expiry for adequate follow-up for renewal. This case study was used throughout the five portfolio activities, as required by the assessment brief.
 
 ## Users
 
